@@ -1,0 +1,21 @@
+body {
+  background-color: #ffc2a0;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+h1 {
+  color: #ff8542;
+}

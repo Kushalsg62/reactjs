@@ -1,0 +1,24 @@
+.para {
+  display: inline;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: Roboto;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.button {
+  border: 1px solid #ff8542;
+  background-color: transparent;
+  color: #ff0b37;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
