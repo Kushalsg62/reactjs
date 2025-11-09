@@ -1,0 +1,15 @@
+.list {
+  list-style-type: none;
+}
+
+.button {
+  display: inline;
+  border: 1px solid #d4d2db;
+  background-color: #382f5a;
+  color: #d4d2db;
+  width: 400px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+}
