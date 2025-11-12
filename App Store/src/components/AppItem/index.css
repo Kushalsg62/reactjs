@@ -1,0 +1,25 @@
+.card {
+  background-color: white;
+  font-family: Bree Serif;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.appName {
+  font-size: 10px;
+  font-weight: 400;
+}

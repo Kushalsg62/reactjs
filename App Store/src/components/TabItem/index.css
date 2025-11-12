@@ -1,0 +1,10 @@
+.list {
+  list-style-type: none;
+}
+
+.button {
+  background-color: transparent;
+  margin: 0px 30px;
+  color: #7b8794;
+  border: 0px;
+}

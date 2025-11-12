@@ -1,0 +1,47 @@
+.background {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Bree Serif;
+  color: #1e293b;
+}
+
+.search-container {
+  background-color: transparent;
+  color: #1e293b;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #7b8794;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 450px;
+}
+
+.search-img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
