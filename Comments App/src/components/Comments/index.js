@@ -125,7 +125,6 @@ class Comments extends Component {
           <p className="count-value">{count}</p>
           <p className="commnet-text">Comments</p>
 
-          {/* REQUIRED CHANGE: unordered list */}
           <ul>
             {commentsList.map(each => (
               <li key={each.id} className="list">
