@@ -1,0 +1,64 @@
+.MoneyDetails-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Roboto;
+  margin: 50px 0px;
+}
+
+.MoneyDetails-Balance {
+  border: 2px solid #84cc16;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  background-color: #ecfccb;
+}
+
+.MoneyDetails-heading {
+  color: #7e858e;
+  font-size: 25px;
+  font-weight: 350;
+}
+
+.MoneyDetails-Income {
+  border: 2px solid #06b6d4;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  background-color: #cffafe;
+}
+
+.MoneyDetails-Expense {
+  border: 2px solid #7c3aed;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  background-color: #ede9fe;
+}
+
+.MoneyDetails-Rupees {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.MoneyDetails-text-container {
+  margin: 0px 20px;
+}
