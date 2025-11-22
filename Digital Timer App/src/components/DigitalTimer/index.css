@@ -1,0 +1,115 @@
+.background-container {
+  background: linear-gradient(to left, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  font-family: Roboto;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 450;
+}
+
+.timer {
+  color: #00d9f5;
+}
+
+.main-conatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.timer-conatiner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+
+.timer-background {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 220px;
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-set-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 220px;
+}
+
+.start-reset-conatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-reset-button {
+  background-color: transparent;
+  border: 0px;
+  margin: 0px 10px;
+}
+
+.start-reset-text {
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 26px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.set-timer {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.addition-subtraction-conatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.minus-button {
+  background-color: transparent;
+  border: 0px;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px 20px;
+}
+
+.time-button {
+  background: linear-gradient(to left, #00d9f5, #7ccab7, #1fd255);
+  border: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 0px 20px;
+  padding: 10px 30px;
+}
+
+.add-button {
+  background-color: transparent;
+  border: 0px;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px 20px;
+}
