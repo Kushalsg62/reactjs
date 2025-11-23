@@ -35,7 +35,7 @@ This repository functions as both a learning ledger and a professional artefact.
 
 ### 1. **App Store**
 A mobile app marketplace interface with search, filtering, and category navigation
-- [Live Demo](#https://appstoreprt.ccbp.tech/)
+- [Live Demo](https://appstoreprt.ccbp.tech/)
 
 ### 2. **Appointments App**
 Schedule and manage appointments with add, edit, and delete functionality
