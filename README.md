@@ -97,7 +97,7 @@ Classic todo list application with add, complete, and delete task functionality
 - React (functional components + hooks)
 - JavaScript (ES6+)
 - HTML5 & CSS3 (Flexbox / Grid)
-- Optional: localStorage, context API, or small libraries, depending on project
+- localStorage, context API, or small libraries, depending on project
 
 ## CONTRIBUTION & NOTES
 
