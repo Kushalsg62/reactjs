@@ -1,0 +1,41 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.logo-text {
+  display: inline;
+  color: #12022f;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.header-text {
+  text-decoration: none;
+  color: #12022f;
+}

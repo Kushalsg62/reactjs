@@ -1,0 +1,25 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  color: #6d396b;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.sub-text {
+  color: #555555;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+}
