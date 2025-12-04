@@ -1,0 +1,108 @@
+.cryptocurrencies-list-container {
+  background-color: #000000;
+  border: 3px solid #b98700;
+  border-radius: 8px;
+  padding: 48px;
+  width: 100%;
+  max-width: 1100px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+}
+
+.list-heading {
+  color: #00e7ff;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.cryptocurrency-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 48px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  background-color: #092e33;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom: 0px;
+  margin-bottom: 0;
+  border: 2px solid #00e7ff;
+}
+
+.list-coin-type {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-values-container {
+  display: flex;
+  gap: 120px;
+}
+
+.list-value-heading {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  min-width: 120px;
+  text-align: center;
+}
+
+.cryptocurrencies-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #00e7ff;
+  border-radius: 0 0 12px 12px;
+  padding: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .cryptocurrencies-list-container {
+    padding: 24px 16px;
+    border-width: 2px;
+  }
+
+  .list-heading {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .cryptocurrency-image {
+    max-width: 300px;
+    margin-bottom: 32px;
+  }
+
+  .list-header {
+    padding: 16px 20px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .list-coin-type,
+  .list-value-heading {
+    font-size: 16px;
+  }
+
+  .list-values-container {
+    gap: 60px;
+  }
+
+  .list-value-heading {
+    min-width: 80px;
+  }
+
+  .cryptocurrencies-list {
+    border-radius: 0 0 8px 8px;
+  }
+}
