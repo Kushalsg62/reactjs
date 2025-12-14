@@ -1,0 +1,129 @@
+.win-lose-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.result-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.result-text {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.score-label {
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.score-value {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.play-again-button:hover {
+  transform: scale(1.05);
+}
+
+.result-image {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .result-container {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+
+  .text-container {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .result-text {
+    font-size: 32px;
+  }
+
+  .score-label {
+    font-size: 20px;
+  }
+
+  .score-value {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .play-again-button {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .result-image {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .result-container {
+    padding: 50px 60px;
+  }
+
+  .text-container {
+    margin-right: 40px;
+  }
+
+  .result-text {
+    font-size: 40px;
+  }
+
+  .score-value {
+    font-size: 48px;
+  }
+
+  .result-image {
+    width: 250px;
+  }
+}
