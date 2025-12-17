@@ -1,0 +1,17 @@
+.character-item {
+  background-color: #334155;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.character-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
