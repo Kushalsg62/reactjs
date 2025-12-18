@@ -1,0 +1,44 @@
+.app-container {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.select {
+  width: 200px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.failure-view {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.failure-img {
+  width: 350px;
+}
+
+.retry-btn {
+  background-color: #328af2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
