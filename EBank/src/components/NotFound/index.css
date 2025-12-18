@@ -1,0 +1,22 @@
+.notfound-bg {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notfound-img {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.notfound-bg h1 {
+  color: #183b56;
+  margin-bottom: 10px;
+}
+
+.notfound-bg p {
+  color: #5a7184;
+}
