@@ -1,0 +1,26 @@
+.tag-item {
+  margin: 0;
+}
+
+.tag-button {
+  background-color: transparent;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid #f1f5f9;
+  border-radius: 24px;
+  padding: 8px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tag-button:hover {
+  background-color: #323f4b;
+}
+
+.tag-button.active {
+  background-color: #f3aa4e;
+  border-color: #f3aa4e;
+  color: #1a171d;
+}
